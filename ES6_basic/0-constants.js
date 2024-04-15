@@ -1,17 +1,17 @@
 function taskFirst() {
-    var task = 'I prefer const when I can.';
+    const task = 'I prefer const when I can.';
     return task;
-  }
-  
-  function getLast() {
+}
+
+function getLast() {
     return ' is okay';
-  }
-  
-  function taskNext() {
-    var combination = 'But sometimes let';
+}
+
+function taskNext() {
+    let combination = 'But sometimes let';
     combination += getLast();
-  
+
     return combination;
-  }
+}
 
 module.exports = { taskFirst, getLast, taskNext };
